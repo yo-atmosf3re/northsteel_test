@@ -1,0 +1,1 @@
+export type { NewsItemI } from './model/types/news';
