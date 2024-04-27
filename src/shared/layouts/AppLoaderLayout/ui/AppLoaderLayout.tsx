@@ -12,7 +12,10 @@ export const AppLoaderLayout: React.FC = memo(() => {
     return (
         <MainLayout
             header={
-                <Card variant="light">
+                <Card
+                    variant="light"
+                    padding="16"
+                >
                     <HStack
                         gap="16"
                         justify="end"

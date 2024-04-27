@@ -31,6 +31,7 @@ export const Header: React.FC<HeaderPropsI> = memo(({ className }) => {
         <Card
             className={classNames('', {}, [className])}
             variant="light"
+            padding="16"
         >
             <HStack
                 gap="16"
@@ -38,6 +39,7 @@ export const Header: React.FC<HeaderPropsI> = memo(({ className }) => {
             >
                 {itemsList}
             </HStack>
+            
         </Card>
     );
 });
