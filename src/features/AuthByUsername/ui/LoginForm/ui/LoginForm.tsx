@@ -48,8 +48,6 @@ const LoginForm: React.FC<LoginFormPropsI> = memo(({ className }) => {
         [setUsername],
     );
 
-    console.log(username);
-
     const onChangePassword = useCallback(
         (value: string) => {
             setPassword(value);

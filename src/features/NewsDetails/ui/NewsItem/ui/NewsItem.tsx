@@ -33,7 +33,7 @@ export const NewsItem: React.FC<NewsItemPropsI> = memo(
                         title={title}
                         align="center"
                         bold
-                        variant="accent"
+                        variant="primary"
                     />
                     <Text text={content} />
                     <HStack
