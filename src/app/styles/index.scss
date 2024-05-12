@@ -2,6 +2,10 @@
 @import "variables/global";
 @import "theme/main";
 
+body {
+    overflow-y: scroll;
+}
+
 .app {
     min-height: 100vh;
     background: var(--bg);
